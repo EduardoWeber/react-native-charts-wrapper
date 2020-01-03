@@ -33,5 +33,7 @@ repositories {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "com.facebook.react:react-native:+"  // From node_modules
-    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    implementation 'com.github.EduardoWeber:MPAndroidChart:f41a5a22c2aa34400f982ea3319c56d4fccccfcb'
+    //change to implementation 'com.github.EduardoWeber:MPAndroidChart:master-SNAPSHOT' in the future
+    //implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 }
